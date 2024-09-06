@@ -37,7 +37,7 @@ This is a Course Dashboard application built using React, Redux, and Tailwind CS
 
 4. **For backend, install the dependencies, the run**
      ```bash
-     cd backend && npm insa;;
+     cd backend && npm install
 
 5. **Run the server**
      ```bash
