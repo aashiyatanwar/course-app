@@ -20,6 +20,12 @@ This is a Course Dashboard application built using React, Redux, and Tailwind CS
 - **Routing**: React Router
 - **Tooling**: npm, Webpack
 
+## Live Demo
+
+You can check out the live demo of the project here:
+
+[Live Project Link](https://courseapp-4c3h.onrender.com/)
+
 ## Setup Instructions
 
 1. **Clone the Repository**
