@@ -1,30 +1,3 @@
-
-// import { configureStore } from '@reduxjs/toolkit';
-// import { persistStore, persistReducer } from 'redux-persist';
-// import storage from 'redux-persist/lib/storage';
-// import coursesReducer from './features/courseSlice';
-
-// // Redux Persist Configuration
-// const persistConfig = {
-//   key: 'root',
-//   storage,
-// };
-
-// const persistedReducer = persistReducer(persistConfig, coursesReducer);
-
-// // Configure Store
-// const store = configureStore({
-//   reducer: {
-//     courses: persistedReducer,
-//   },
-// });
-
-
-
-// const persistor = persistStore(store);
-
-// export { store, persistor };
-
 import { configureStore } from '@reduxjs/toolkit';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';

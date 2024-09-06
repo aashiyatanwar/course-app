@@ -1,32 +1,3 @@
-// import React, { useState } from 'react';
-
-// const SearchBar = ({ onSearch }) => {
-//   const [query, setQuery] = useState('');
-
-//   const handleSearch = () => {
-//     onSearch(query);
-//   };
-
-//   return (
-//     <div className="flex items-center mb-4">
-//       <input
-//         type="text"
-//         value={query}
-//         onChange={(e) => setQuery(e.target.value)}
-//         className="border border-gray-300 rounded-l-md p-2 flex-grow"
-//         placeholder="Search by course name or instructor"
-//       />
-//       <button
-//         onClick={handleSearch}
-//         className="bg-blue-500 text-white p-2 rounded-r-md hover:bg-blue-600"
-//       >
-//         Search
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default SearchBar;
 import React, { useState } from 'react';
 
 const SearchBar = ({ onSearch }) => {
