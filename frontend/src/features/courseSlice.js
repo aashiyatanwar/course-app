@@ -2,8 +2,9 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Fetch courses from the API
+const baseURL = process.env.REACT_APP_BACKEND_URL
 export const fetchCourses = createAsyncThunk('courses/fetchCourses', async () => {
-  const response = await axios.get('http://localhost:5000/api/courses');
+  const response = await axios.get(`${baseURL}/api/courses`);
   console.log("response" , response)
   return response.data;
 });
